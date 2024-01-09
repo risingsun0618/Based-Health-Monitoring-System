@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/void0Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="@color/whiteColor"
+        android:weightSum="2">
+
+        <!-- place one TextView and one TextView inside layout using weight property -->
+
+        <TextView
+            android:id="@+id/date_yo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.8"
+            android:text="12-02-2021"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/blackColor" />
+        <TextView
+            android:id="@+id/time_yo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.2"
+            android:text="1:00 pm"
+            android:textColor="@color/blackColor" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/void1Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        android:background="@color/whiteColor"
+        android:weightSum="6">
+
+        <!-- place one TextView and one TextView inside layout using weight property -->
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Diabetes:"
+            android:textColor="@color/blackColor" />
+
+        <TextView
+            android:id="@+id/diabetes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="Yes"
+            android:textColor="@color/blackColor" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="CHD:"
+            android:textColor="@color/blackColor" />
+        <TextView
+            android:id="@+id/chd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Yes"
+            android:textColor="@color/blackColor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="Asthma:"
+            android:textColor="@color/blackColor" />
+        <TextView
+            android:id="@+id/asthma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Yes"
+            android:textColor="@color/blackColor" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/void2Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:background="@color/whiteColor"
+            android:weightSum="6">
+
+            <!-- place one TextView and one TextView inside layout using weight property -->
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Bronchi:"
+                android:textColor="@color/blackColor" />
+
+            <TextView
+                android:id="@+id/bronchi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Yes"
+                android:textColor="@color/blackColor" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Hypoxemia:"
+                android:textColor="@color/blackColor" />
+            <TextView
+                android:id="@+id/hypoxemia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Yes"
+                android:textColor="@color/blackColor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Stress:"
+                android:textColor="@color/blackColor" />
+            <TextView
+                android:id="@+id/stress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Yes"
+                android:textColor="@color/blackColor" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
